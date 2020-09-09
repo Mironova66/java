@@ -12,16 +12,11 @@ public class Ball {
         color = "No color";
         size = 0;
     }
-    public void setColor(String c) {
-        this.color = c;
-    }
-    public void setSize(int s) {
-        this.size = s;
-    }
-    public void getColor() {
-
-    }
-
+    public void setColor(String c) { this.color = c; }
+    public void setSize(int s) { this.size = s; }
+    public String getColor() { return color; }
+    public int getSize() { return size; }
+    public String toString() { return "Color: " + this.color+", size: "+this.size; }
 }
 
 
